@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "too-much-fun",
+	"version": "${version}",
+	"name": "Too Much Fun",
+	"description": "A fabric mod that adds many fun features to the game!",
+	"authors": [
+		"Ashton Tink"
+	],
+	"contact": {
+		"homepage": "https://www.ashtontink.com/toomuchfun",
+		"sources": "https://github.com/Pixel-Pioneers-Studio/TooMuchFun"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/too-much-fun/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ashtontink.toomuchfun.TooMuchFun"
+		],
+		"fabric-datagen": [
+			"net.ashtontink.toomuchfun.TooMuchFunDataGenerator"
+		],
+		"client": [
+			"net.ashtontink.toomuchfun.TooMuchFunClient"
+		]
+	},
+	"mixins": [
+		"too-much-fun.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "1.21.x",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

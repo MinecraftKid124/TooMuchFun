@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.ashtontink.toomuchfun.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
